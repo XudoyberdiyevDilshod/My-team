@@ -932,7 +932,7 @@ img {
   }
 }
 .about-hero {
-  padding-top: 130px;
+  padding: 130px 0 120px;
   background-image: url("../../../images/about-hero-bg.svg");
   background-repeat: no-repeat;
   background-size: 100px;
@@ -977,7 +977,61 @@ img {
 }
 
 .about-meet {
-  border-color: #004047;
+  background-color: #004047;
+  padding: 140px 0 168px;
+}
+
+.about-meet__title {
+  margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.about-meet__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1110px;
+  list-style: none;
+}
+
+.about-meet__item {
+  padding: 0;
+  width: 100%;
+  max-width: 350px;
+  min-height: 253px;
+  background: #012f34;
+  text-align: center;
+  margin-bottom: 76px;
+}
+
+.about-meet__pic {
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.about-meet__text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79c8c7;
+}
+
+.about-meet__italic {
+  margin-bottom: 56px;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .site-footer {
