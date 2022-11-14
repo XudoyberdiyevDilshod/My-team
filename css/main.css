@@ -931,6 +931,55 @@ img {
     gap: 24px;
   }
 }
+.about-hero {
+  padding-top: 130px;
+  background-image: url("../../../images/about-hero-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: calc(50% + 800px) 100%, 100% 100%;
+}
+
+.about-hero__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-hero__title {
+  align-items: flex-start;
+  margin: 0;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: #ffffff;
+}
+
+.about-hero__desc {
+  width: 100%;
+  max-width: 730px;
+}
+
+.about-hero__line {
+  border: 2px solid #F67E7E;
+  background-color: #F67E7E;
+  margin-bottom: 79px;
+}
+
+.about-line {
+  display: inline-block;
+  width: 50px;
+}
+
+.about-hero__text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.about-meet {
+  border-color: #004047;
+}
+
 .site-footer {
   padding: 48px 0;
   background-color: #002529;
