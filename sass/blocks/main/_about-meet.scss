@@ -1,6 +1,12 @@
 .about-meet {
   background-color: #004047;
   padding: 140px 0 168px;
+  background-image: url('../../../images/meet-bgi-top.svg')
+  url('../../../images/meet-bgi-bottom.svg');
+  background-repeat: no-repeat;
+  background-size: 200px , 147px 100px;
+  background-position: calc(25% + 10px) calc(0% ),
+  calc(50%) calc(50% );
 }
 
 .about-meet__title {
@@ -12,6 +18,7 @@
   color: #ffffff;
 }
 .about-meet__list {
+  position: relative;
   margin: 0;
   padding: 0;
   display: flex;
@@ -26,10 +33,31 @@
   padding: 0;
   width: 100%;
   max-width: 350px;
-   min-height: 253px;
+  min-height: 253px;
   background: #012f34;
   text-align: center;
   margin-bottom: 76px;
+  background-image: url('../../../images/icon-plus.svg');
+  background-repeat: no-repeat;
+  background-size: 56px;
+  background-position: calc(50%) calc(100% + 28px),
+  transition: all 0.4s ease;
+
+  &:hover{
+    background-image: url('../../../images/icon-x.svg');
+  }
+}
+
+.active{
+  background-image: url('../../../images/icon-x.svg');
+  background-repeat: no-repeat;
+  background-size: 56px;
+  background-position: calc(50%) calc(100% + 28px),
+  transition: all 0.4s ease;
+
+  &:hover{
+    background-image: url('../../../images/icon-plus.svg');
+  }
 }
 
 .about-meet__pic {
@@ -38,6 +66,7 @@
 }
 
 .about-meet__text {
+  margin: 0;
   font-weight: 700;
   font-size: 18px;
   line-height: 28px;
@@ -46,6 +75,7 @@
 }
 
 .about-meet__italic {
+  margin: 0;
   margin-bottom: 56px;
   font-style: italic;
   font-size: 15px;
@@ -53,5 +83,26 @@
   text-align: center;
   color: #ffffff;
 }
+.about-meet__alen {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79c8c7;
+}
 
+.about-meet__gap {
+  margin: 0 auto;
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: 254px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
 
+.about-meet__twitter{
+  margin-right: 16px;
+}
