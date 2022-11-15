@@ -1,0 +1,37 @@
+.about-hero {
+  padding: 57px 0 120px;
+  background-image: url("../images/about-bottom.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: calc(50% + 700px) calc(50% + 75px);
+}
+
+.about-hero__inner {
+  display: flex;
+  align-items: flex-start;
+}
+
+.about-hero__heading {
+  width: 350px;
+}
+
+.about-hero__content {
+  width: 100%;
+  max-width: 730px;
+}
+
+.about-hero__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: #ffffff;
+}
+
+.about-hero__text {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}

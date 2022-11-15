@@ -1,0 +1,27 @@
+.clients {
+  padding: 140px 0;
+  background-color: #012f34;
+  background-image: url("../../../images/manage-bgi-bottom.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: calc(50% - 600px) calc(50% - 157px);
+}
+
+.clients__title {
+  margin: 0;
+  margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.clients__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

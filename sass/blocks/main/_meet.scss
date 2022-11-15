@@ -1,0 +1,138 @@
+.meet {
+  padding: 140px 0;
+  background-color: #004047;
+  background-image: url("../images/meet-bgi-top.svg"),
+    url("../../../images/meet-bgi-bottom.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 200px, 147px 100px;
+  background-position: calc(50% - 700px) calc(50% - 386px),
+    calc(50% + 650px) calc(50% + 435px);
+}
+
+.meet__title {
+  margin: 0;
+  margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.meet__item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  gap: 76px 30px;
+}
+
+.meet__list {
+  position: relative;
+  padding: 32px 24px 56px;
+  width: 350px;
+  background: #012f34;
+  text-align: center;
+}
+
+.meet__list::before {
+  display: block;
+  margin: 0 auto;
+  width: 96px;
+  height: 96px;
+  background-repeat: no-repeat;
+  background-size: 96px 96px;
+  content: "";
+}
+
+.meet__list:nth-child(1):before {
+  background-image: url("../images/Nikita-Marks.png");
+}
+.meet__list:nth-child(2):before {
+  background-image: url("../images/Cristian-Duncan.png");
+}
+.meet__list:nth-child(3):before {
+  background-image: url("../images/Cruz-Hamer.png");
+}
+.meet__list:nth-child(4):before {
+  background-image: url("../images/Drake-Heaton.png");
+}
+.meet__list:nth-child(5):before {
+  background-image: url("../images/Griffin-Wise.png");
+}
+
+.meet__list:nth-child(6) {
+  padding: 35px 24px 63px;
+}
+.meet__list:nth-child(6):before {
+  width: 0;
+  height: 0;
+  content: "";
+}
+
+.meet-item__title {
+  margin: 0;
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79c8c7;
+}
+
+.meet-item__text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.text-h {
+  margin: 0;
+}
+
+.text-p {
+  margin: 0;
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.text-p::after {
+  display: block;
+  margin: 24px auto 0;
+  width: 60px;
+  height: 20px;
+  background-image: url("../images/cite.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.meet__list--icon {
+  position: absolute;
+  left: 150px;
+  bottom: -28px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #f67e7e;
+}
+
+.meet-_list--span {
+  display: inline-block;
+  margin: 1px auto;
+  font-size: 40px;
+}
+
+.icon {
+  background-color: #79c8c7;
+}
+
+.icon-x {
+  margin: 16px auto;
+  font-size: 20px;
+}
