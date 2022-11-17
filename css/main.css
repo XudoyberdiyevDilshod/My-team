@@ -1043,6 +1043,10 @@ img {
 
 .contact {
   padding: 47px 0 120px;
+  background-image: url("../images/contact-bgi.svg"), url("../../../images/meet-bgi-top.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 200px, 200px 200px;
+  background-position: calc(50% + 700px) calc(50% + 200px), calc(50% - 700px) calc(50% - 170px);
 }
 
 .contact__inner {
